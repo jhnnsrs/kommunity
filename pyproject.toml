@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10, <=3.11"
-arkitekt = {version = "0.4.103", extras = ["cli"]}
+arkitekt = { version = "0.4.106", extras = ["cli"] }
 toml = "^0.10.2"
 
 

@@ -193,25 +193,25 @@ trio = ["trio (>=0.16,<0.22)"]
 
 [[package]]
 name = "arkitekt"
-version = "0.4.103"
+version = "0.4.106"
 description = "client for the arkitekt platform"
 category = "main"
 optional = false
 python-versions = ">=3.8,<=3.12"
 files = [
-    {file = "arkitekt-0.4.103-py3-none-any.whl", hash = "sha256:14be1deec183fa4043252858f0225dc5e7257f7575be6f441047ba287262dab2"},
-    {file = "arkitekt-0.4.103.tar.gz", hash = "sha256:e862c0eb493eeb91eac66328d16c6bddb4f05d9c22572bbb66d07acf046a2bf5"},
+    {file = "arkitekt-0.4.106-py3-none-any.whl", hash = "sha256:fefa473465d00cd98c3b81b8c756277daa80300c80419ebec88d9c721bbaae6e"},
+    {file = "arkitekt-0.4.106.tar.gz", hash = "sha256:8f85b2c4b982aaed9ab59466f11e919d7b02fb7047720588f8be3340ef2120b3"},
 ]
 
 [package.dependencies]
-fakts = ">=0.3.21"
+fakts = ">=0.3.22"
 fluss = ">=0.1.49"
 herre = ">=0.3.19"
 mikro = ">=0.3.61"
-rekuest = ">=0.1.30"
+rekuest = ">=0.1.31"
 rich-click = {version = ">=1.6.1,<2.0.0", optional = true, markers = "extra == \"cli\""}
 turms = {version = ">=0.3.1a0", optional = true, markers = "python_version >= \"3.9\" and python_version < \"4.0\" and extra == \"cli\""}
-unlok = ">=0.1.12"
+unlok = ">=0.1.13"
 watchfiles = {version = ">=0.18.1,<0.19.0", optional = true, markers = "extra == \"cli\""}
 
 [package.extras]
@@ -487,14 +487,14 @@ files = [
 
 [[package]]
 name = "fakts"
-version = "0.3.21"
+version = "0.3.22"
 description = "asynchronous configuration provider ( tailored to support dynamic client-server relations)"
 category = "main"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "fakts-0.3.21-py3-none-any.whl", hash = "sha256:e7a5221e6984f61bc5fe69ae34374c8774bdfb2d9ab849e870085c69cc61ae90"},
-    {file = "fakts-0.3.21.tar.gz", hash = "sha256:437b10d3ebd0fdc55bf50fb1265aa927dbfccf275a61a2f5de57e031ad3c99ec"},
+    {file = "fakts-0.3.22-py3-none-any.whl", hash = "sha256:1039685751654ee6373672bee77133f47b606c4e35aadfd417acb426051317bb"},
+    {file = "fakts-0.3.22.tar.gz", hash = "sha256:61744dd28eb5c22eecf6725bea609fb35d5604fe407c1c77241dd5fafe196772"},
 ]
 
 [package.dependencies]
@@ -1252,14 +1252,14 @@ websockets = ["websockets (>=10.2,<11.0)"]
 
 [[package]]
 name = "rekuest"
-version = "0.1.30"
+version = "0.1.31"
 description = "rpc and node backbone"
 category = "main"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "rekuest-0.1.30-py3-none-any.whl", hash = "sha256:d0cba7ed87f82fbcc62d797a25382057e3e4e70cfc2821603a0499c6220aed13"},
-    {file = "rekuest-0.1.30.tar.gz", hash = "sha256:52c73223c3d91e56c8fd88c1ac99f7de04a643e99522cc2d606186ab605c4c79"},
+    {file = "rekuest-0.1.31-py3-none-any.whl", hash = "sha256:d5598e6079e22e5e9e84e86d98adb0e6797ba7ccc51109009f9a34b8117ac602"},
+    {file = "rekuest-0.1.31.tar.gz", hash = "sha256:ce180886b53b6c1b38c297fc7d120a91088b76bf1480659ce1bee58b30ea0432"},
 ]
 
 [package.dependencies]
@@ -1418,14 +1418,14 @@ files = [
 
 [[package]]
 name = "unlok"
-version = "0.1.12"
+version = "0.1.13"
 description = ""
 category = "main"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "unlok-0.1.12-py3-none-any.whl", hash = "sha256:3df8985ffac3f7a39f908c1e6bd598ee5300747b0f570e71531ec23fe3b79eb8"},
-    {file = "unlok-0.1.12.tar.gz", hash = "sha256:c6c4c1ec4880946c708895a7743e0c1e233e0a845a998986379d95591e6e37a6"},
+    {file = "unlok-0.1.13-py3-none-any.whl", hash = "sha256:90f84824228b633bcc3a47be40148b027dc4d4353fbd00d73a17d9f26bcd7e79"},
+    {file = "unlok-0.1.13.tar.gz", hash = "sha256:7f75fc2039fd282ac9153b639052f5f9461d4666424838b6514b3f414951d396"},
 ]
 
 [package.dependencies]
@@ -1797,4 +1797,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10, <=3.11"
-content-hash = "ea0a051f5ceb411285d3acd4021b76c3e3ebeb570edade90405d74b9b299aa28"
+content-hash = "fe4501bd2f0b126b541dd81eeb4ec4358c7cebfb3b66fc7168e588f10304ce15"

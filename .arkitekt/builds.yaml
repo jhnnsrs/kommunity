@@ -29,8 +29,7 @@ builds:
     scopes:
     - read
     version: 0.0.1
-latest_build:
-  build_id: a69273e8-a78d-4eee-9f20-528b15a8af2a
+- build_id: 8e4c56cd-8c3a-43da-b633-839c156915df
   builder: port
   manifest:
     author: jhnnsrs
@@ -39,4 +38,15 @@ latest_build:
     requirements: []
     scopes:
     - read
-    version: 0.0.1
+    version: 0.0.2
+latest_build:
+  build_id: 8e4c56cd-8c3a-43da-b633-839c156915df
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: kommunity
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.2
