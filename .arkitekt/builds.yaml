@@ -9,8 +9,7 @@ builds:
     scopes:
     - read
     version: dev
-latest_build:
-  build_id: 84fb1890-557f-40ea-85ae-be824956b565
+- build_id: 98f3a633-704f-44d2-ad31-fe7c33e1e50f
   builder: port
   manifest:
     author: jhnnsrs
@@ -20,3 +19,24 @@ latest_build:
     scopes:
     - read
     version: dev
+- build_id: a69273e8-a78d-4eee-9f20-528b15a8af2a
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: kommunity
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.1
+latest_build:
+  build_id: a69273e8-a78d-4eee-9f20-528b15a8af2a
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: kommunity
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.1
