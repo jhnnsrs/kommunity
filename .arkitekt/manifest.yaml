@@ -1,0 +1,7 @@
+author: jhnnsrs
+entrypoint: app
+identifier: kommunity
+requirements: []
+scopes:
+- read
+version: dev

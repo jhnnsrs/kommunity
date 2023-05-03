@@ -1,0 +1,22 @@
+builds:
+- build_id: 84fb1890-557f-40ea-85ae-be824956b565
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: kommunity
+    requirements: []
+    scopes:
+    - read
+    version: dev
+latest_build:
+  build_id: 84fb1890-557f-40ea-85ae-be824956b565
+  builder: port
+  manifest:
+    author: jhnnsrs
+    entrypoint: app
+    identifier: kommunity
+    requirements: []
+    scopes:
+    - read
+    version: dev
